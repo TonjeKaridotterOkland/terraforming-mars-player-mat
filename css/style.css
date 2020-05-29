@@ -2,18 +2,18 @@
     background-color: black;
 }
 #main-container{
- text-align: center;
+    text-align: center;
 }
 #picture-div{
     background-color: red;
     margin: 10%;
-    position: relative;
+    position: absolute;
 }
 #money-div{
     background-color: white;
     position: absolute;
-    left: 380px;
-    top: 20px;
+    left: 30px;
+    top: 19px;
     width: 320px;
     height: 300px;
 }
@@ -22,6 +22,7 @@
     position: absolute;
     width: 220px;
     height: 260px;
+    opacity: 0.8;
 }
 #steel-div{
     left: 705px;
@@ -44,3 +45,28 @@
     top: 300px;;
 }
 
+.modify{
+    color: black;
+    background-color: white;
+    position: absolute;
+}
+
+#increment-money{
+    top: 150px;
+    left: 280px;
+}
+
+#decrement-money{
+    top: 150px;
+    left: 20px;
+}
+
+.marker{
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    height: 27px;
+    width: 25px;
+    top: 230px;
+    left: 107px;
+}
