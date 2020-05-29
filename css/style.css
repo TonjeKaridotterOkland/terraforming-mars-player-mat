@@ -3,9 +3,10 @@
 }
 #main-container{
     text-align: center;
+ text-align: center;
+
 }
 #picture-div{
-    background-color: red;
     margin: 10%;
     position: absolute;
 }
@@ -16,33 +17,54 @@
     top: 19px;
     width: 320px;
     height: 300px;
+    position: absolute;
 }
 .small-divs{
     background-color: white;
     position: absolute;
-    width: 220px;
+    width: 210px;
     height: 260px;
     opacity: 0.8;
+    border: 3px solid black;
+    opacity: 0.5;
+    top: 28px;
 }
+
+#money-div{
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    top: 28px;
+    width: 314px;
+    height: 285px;
+}
+
 #steel-div{
-    left: 705px;
-    top: 30px;
+    left: 357px;
 }
+
 #titanium-div{
-    left: 930px;
-    top: 30px;
+    left: 580px;
 }
+
 #plants-div{
-    left: 400px;
-    top: 310px;
+    left: 28px;
+    top: 330px;
+    width: 265px;
+    height: 235px; 
 }
+
 #energy-div{
-    left: 655px;
-    top: 310px;
+    left: 304px;
+    top: 330px;
+    width: 226px;
+    height: 235px; 
 }
 #heat-div{
-    left: 900px;
-    top: 300px;;
+    left: 541px;
+    top: 330px;
+    width: 250px;
+    height: 235px; 
 }
 
 .modify{
