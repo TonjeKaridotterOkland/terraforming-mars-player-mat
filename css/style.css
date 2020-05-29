@@ -2,7 +2,45 @@
     background-color: black;
 }
 #main-container{
-   text-align: center;
+ text-align: center;
 }
-
+#picture-div{
+    background-color: red;
+    margin: 10%;
+    position: relative;
+}
+#money-div{
+    background-color: white;
+    position: absolute;
+    left: 380px;
+    top: 20px;
+    width: 320px;
+    height: 300px;
+}
+.small-divs{
+    background-color: white;
+    position: absolute;
+    width: 220px;
+    height: 260px;
+}
+#steel-div{
+    left: 705px;
+    top: 30px;
+}
+#titanium-div{
+    left: 930px;
+    top: 30px;
+}
+#plants-div{
+    left: 400px;
+    top: 310px;
+}
+#energy-div{
+    left: 655px;
+    top: 310px;
+}
+#heat-div{
+    left: 900px;
+    top: 300px;;
+}
 
